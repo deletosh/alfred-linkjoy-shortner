@@ -1,0 +1,65 @@
+###
+
+# curl --request POST
+#  --url https://api.linkjoy.io/v1/url-shortener/project
+#  --header 'Accept: application/json'
+#  --header 'Authorization: Bearer 123'
+#  --header 'Content-Type: application/json'
+#  --data '{
+#  "project": {
+#    "long_url": "string",
+#    "slug": "string",
+#    "tag_name": "string",
+#    "receiver_contact_id": null,
+#    "custom_domain_id": 0,
+#    "utm_parameters": {
+#      "utm_campaign": "string",
+#      "utm_medium": "string",
+#      "utm_content": "string",
+#      "utm_source": "string",
+#      "utm_term": "string"
+#    },
+#    "open_graph_tags": {
+#      "title": "string",
+#      "description": "string",
+#      "site_name": "string",
+#      "url": "string",
+#      "type": "string"
+#    },
+#    "gdpr_popup": {
+#      "company_name": "string",
+#      "link_to_privacy_policy": "string"
+#    },
+#    "ab_rotator": [
+#      {
+#        "redirection_link": "string",
+#        "percentage": 0
+#      }
+#    ],
+#    "tracking": {
+#      "name": "string",
+#      "snippet_code": "string",
+#      "type": "string"
+#    }
+#  }
+#}'
+POST https://api.linkjoy.io/api/url-shortener/project
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYjAyMGU1YzcwNzg0ZGRlNTIxOGRiOTQxMDI0MmM3MDBhNWI5ZTM2M2MzYzQ0MjdlNjlkNTk3ZGZkYThlOTE5NjYyYmExOTRiM2RkZjViNTciLCJpYXQiOjE2OTcxMjMyMDQuMzM2OTQ4LCJuYmYiOjE2OTcxMjMyMDQuMzM2OTUsImV4cCI6MTY5NzM4MjQwNC4wOTQxMzQsInN1YiI6IjQ4ODEiLCJzY29wZXMiOltdfQ.LtRAKmKBOi8uyTqn0XJgM1AZce3D69DOa-PY9OUXLiIvUV6l8WExytghGGJSh8EGyOyktz4EZ1eXo5eBirmirLhF-NbVuUjgprg6YZSDqEfR3g4x1XclRN8LQ8-WZBsm61nywaC7cY7NlAzGuUf4AceaAwtPKvaFZTxRNKhv9xTEhPg5Hzm4mvx9wWqXDEpHM7YyMV-607UbI-2b3XJwqfqMZKmvcpLEbnQ3Hg69wKkYqY11XMjnHfRxz40v7vcJ-97LnSeawotMDvZbxO7i9J7S-hZeRtdD5rACTOBHS6h-MNbAcpCqGUMCa-TEDOM8imUNWh-pm9CWba4dC4DA7lWR26rDIwnriXg5ec4CJ1PETlfhOWyz_g0EWIxOgYRzBUIrCqV7EHAAsUOkqfdPc5vZzwtUU-yo3mLvlice8ImQTvZiCNQMFkJOkBGQR5PIeIBZ3_6d72TlJgvxq5961LJ5wuC_lNVTHRVcZ0Xwl0_EaJi-dOVSL_FiGSSJFrbAYq3zsLgU21dg6gPBeikhvqCTWXhnKaZi_7VC251QN2CVNFRy1XbpAddNR91cMLurBO7FHxq1YnEdsIcZApVYLi9yNyBjz38f5LeaFa4ZPDOiogjLvXYOK_sFevieR5VdSAjnm9paXBU_V_PnRw9_Yz8QXYaM9BW62OjUn9Zx0zI
+Content-Type: application/json
+Workspace: 5193
+
+{
+  "project": {
+    "long_url": "https://gogogoleedeedeee.com",
+    "slug": "sample-5",
+    "tag_name": "sampler",
+    "receiver_contact_id": null,
+    "is_deep_link": false,
+    "custom_domain_id": 1636
+  }
+}
+
+###
+
+#https://api.linkjoy.io/api/url-shortener/project

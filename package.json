@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "alfred-notifier": "^0.2.3",
+    "alfy": "*",
+    "is-valid-http-url": "^1.0.3"
+  },
+  "name": "alfred-linkjoy-shortner",
+  "version": "1.0.0",
+  "description": "Shortner links with linkjoy.io",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deletosh/alfred-linkjoy-shortner.git"
+  },
+  "keywords": [
+    "alfred",
+    "link",
+    "shortner"
+  ],
+  "author": "Dele Tosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deletosh/alfred-linkjoy-shortner/issues"
+  },
+  "homepage": "https://github.com/deletosh/alfred-linkjoy-shortner#readme"
+}
